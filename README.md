@@ -1,4 +1,4 @@
-<h2>📱 Motorola Clone – React</h2>
+<h2><b>📱 Motorola Clone – React</b></h2>
 
 A modern Motorola website clone built using React.js.
 This project replicates Motorola’s clean UI, includes custom Login and Register pages, and is designed with scalability for future backend integration.
