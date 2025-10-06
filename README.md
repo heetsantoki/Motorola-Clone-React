@@ -4,7 +4,6 @@ A modern Motorola website clone built using React.js.
 This project replicates Motorola’s clean UI, includes custom Login and Register pages, and is designed with scalability for future backend integration.
 
 
----
 
 <h2><b><i>🚀 Features</i></b></h2>
 
@@ -17,8 +16,6 @@ This project replicates Motorola’s clean UI, includes custom Login and Registe
 🔄 Future Integration – Planned backend with Node.js + MongoDB for authentication and orders.
 
 
-
----
 
 <h2><b><i>🛠 Tech Stack</i></b></h2>
 
