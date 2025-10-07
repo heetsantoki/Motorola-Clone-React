@@ -1,0 +1,46 @@
+/* Ensure product grid is properly structured */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 products per row */
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Ensure each product card has equal height */
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Push button to bottom */
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%; /* Ensures equal height */
+  }
+  
+  /* Fix inconsistent image sizes */
+  .product-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+  }
+  
+  /* Ensure text section grows evenly */
+  .product-info {
+    flex-grow: 1;
+  }
+  
+  /* Fix "Shop now" button alignment */
+  .shop-now {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: auto; /* Push to bottom */
+  }
+  

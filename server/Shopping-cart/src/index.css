@@ -1,0 +1,116 @@
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 18px;
+    height: 14px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.bar {
+    height: 2px;
+    width: 100%;
+    background-color: #0a1b2f;
+    border-radius: 1px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #0a1b2f;
+}
+
+.logo-text {
+    font-weight: bold;
+    font-size: 20px;
+    color: #0a1b2f;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: #0a1b2f;
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.gap-3 {
+    gap: 15px;
+}
+
+.slick-prev, .slick-next {
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent black background */
+    border-radius: 50%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-prev:before, 
+.slick-next:before {
+    color: white;
+    font-size: 20px;
+}
+
+/* Position */
+.slick-prev {
+    left: 15px;
+}
+.slick-next {
+    right: 15px;
+}
+
+.header-icon {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.header-icon:hover {
+    color: #007bff;
+}
+.custom-dropdown-toggle::after {
+    display: none !important; /* Hides the arrow */
+}
+
+/* Cart Badge Styles */
+.cart-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: #f00;
+  color: white;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

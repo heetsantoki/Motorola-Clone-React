@@ -1,0 +1,100 @@
+.footer {
+  background-color: #fff;
+  padding: 30px 20px;
+  border-top: 1px solid #eee;
+}
+
+.footer-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px; /* slight side padding for smaller screens */
+}
+
+/* Top section layout (logo + social + safe website) */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Each section inside footer-top */
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+/* Logo and tagline */
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-subtext {
+  font-size: 12px;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* Social media icons */
+.footer-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 8px;
+}
+
+.footer-icons a {
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #e60012; /* Red hover like Motorola theme */
+}
+
+/* Safe website icon */
+.footer-section img {
+  margin-top: 10px;
+}
+
+/* Bottom terms and copyright */
+.footer-bottom {
+  text-align: center;
+  font-size: 13px;
+  color: #444;
+  line-height: 1.8;
+  margin-top: 40px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-bottom p {
+  margin: 10px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    margin: 10px 0;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+}

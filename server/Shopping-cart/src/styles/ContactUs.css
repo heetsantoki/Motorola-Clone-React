@@ -1,0 +1,102 @@
+.contact-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    background-color: #06182c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .contact-container h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Chat Box */
+  .chat-box {
+    background: linear-gradient(to bottom, #003366, #001a33);
+    border: 1px solid #0a2a47;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+  }
+  
+  .chat-box h3 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .chat-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .chat-item {
+    background-color: #001a33;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .chat-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .chat-item img {
+    width: 60px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .chat-item a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Support Section */
+  .support-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .support-item {
+    background: linear-gradient(to bottom, #003366, #001a33);
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    color: white;
+  }
+  
+  .support-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .support-item img {
+    width: 50px;
+    margin-bottom: 1rem;
+  }
+  
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .chat-options, .support-box {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .chat-item,
+    .support-item {
+      width: 90%;
+    }
+  }
+  

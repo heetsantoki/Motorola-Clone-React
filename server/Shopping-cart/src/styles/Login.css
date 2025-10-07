@@ -1,0 +1,162 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f1f1f1, #ffffff);
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .logo_container img {
+    width: 130px;
+  }
+  
+  .navigation.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bar_icon i {
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  /* Main Content */
+  .main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: url('/images/login-bg.jpg') no-repeat center center/cover;
+  }
+  
+  .wrapper {
+    background: #fff;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .wrapper h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  /* Input Fields */
+  .input-box {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 12px 40px 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: 0.3s ease;
+  }
+  
+  .input-box input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .input-box i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+  }
+  
+  /* Remember + Forgot */
+  .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+  }
+  
+  .remember-forgot a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .remember-forgot a:hover {
+    text-decoration: underline;
+  }
+
+  .remember-forgot label{
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Button */
+  .btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+    transition: 0.1s ease-in-out;
+  }
+  
+  /* Register */
+  .register-link {
+    text-align: center;
+    margin-top: 1.2rem;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  .register-link a {
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error Message */
+  .error-msg {
+    background-color: #ffe5e5;
+    color: #d8000c;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    text-align: center;
+  }
+  
